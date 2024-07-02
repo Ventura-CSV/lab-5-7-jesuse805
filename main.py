@@ -1,10 +1,10 @@
 
 def splitlist(numbers):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+
+minval = min(numbers)
+
+
+
 
 
 def main():
