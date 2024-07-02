@@ -1,17 +1,15 @@
 
 def splitlist(numbers):
 
-minimumvalue = min(numbers)
+    minimumvalue = min(numbers)
 
-minIndex = numbers.index(minimumvalue)
+    minIndex = numbers.index(minimumvalue)
 
+    numbers[0], numbers[minIndex] = numbers[minIndex], numbers[0]
 
+    first, *others = numbers
 
-
-
-first, *others = numbers
-
-return first, others
+    return first, others
 
 def main():
 
